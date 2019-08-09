@@ -1,0 +1,3253 @@
+{
+    "columns": [
+        "API Name",
+        "vCPUs",
+        "Memory",
+        "Instance Storage",
+        "Network Performance",
+        "Linux On Demand cost",
+        "family_l1",
+        "family_l2"
+    ],
+    "data": [
+        [
+            "a1.medium",
+            1,
+            2.0,
+            null,
+            "Up to 10 Gigabit",
+            0.026325,
+            "a",
+            "a1"
+        ],
+        [
+            "a1.large",
+            2,
+            4.0,
+            null,
+            "Up to 10 Gigabit",
+            0.05265,
+            "a",
+            "a1"
+        ],
+        [
+            "a1.xlarge",
+            4,
+            8.0,
+            null,
+            "Up to 10 Gigabit",
+            0.1053,
+            "a",
+            "a1"
+        ],
+        [
+            "a1.2xlarge",
+            8,
+            16.0,
+            null,
+            "Up to 10 Gigabit",
+            0.2106,
+            "a",
+            "a1"
+        ],
+        [
+            "a1.4xlarge",
+            16,
+            32.0,
+            null,
+            "Up to 10 Gigabit",
+            0.4212,
+            "a",
+            "a1"
+        ],
+        [
+            "c1.medium",
+            2,
+            1.7,
+            {
+                "devices": 1,
+                "includes_swap_partition": true,
+                "nvme_ssd": false,
+                "size": 350,
+                "ssd": false,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "Moderate",
+            0.1531111111,
+            "c",
+            "c1"
+        ],
+        [
+            "c1.xlarge",
+            8,
+            7.0,
+            {
+                "devices": 4,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 420,
+                "ssd": false,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "High",
+            0.6124444444,
+            "c",
+            "c1"
+        ],
+        [
+            "c3.large",
+            2,
+            3.75,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 16,
+                "ssd": true,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "Moderate",
+            0.125,
+            "c",
+            "c3"
+        ],
+        [
+            "c3.xlarge",
+            4,
+            7.5,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 40,
+                "ssd": true,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "Moderate",
+            0.2498181818,
+            "c",
+            "c3"
+        ],
+        [
+            "c3.2xlarge",
+            8,
+            15.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 80,
+                "ssd": true,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "High",
+            0.4995454545,
+            "c",
+            "c3"
+        ],
+        [
+            "c3.4xlarge",
+            16,
+            30.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 160,
+                "ssd": true,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "High",
+            0.9989090909,
+            "c",
+            "c3"
+        ],
+        [
+            "c3.8xlarge",
+            32,
+            60.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 320,
+                "ssd": true,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "10 Gigabit",
+            1.9981818182,
+            "c",
+            "c3"
+        ],
+        [
+            "c4.large",
+            2,
+            3.75,
+            null,
+            "Moderate",
+            0.116625,
+            "c",
+            "c4"
+        ],
+        [
+            "c4.xlarge",
+            4,
+            7.5,
+            null,
+            "High",
+            0.2328125,
+            "c",
+            "c4"
+        ],
+        [
+            "c4.2xlarge",
+            8,
+            15.0,
+            null,
+            "High",
+            0.466,
+            "c",
+            "c4"
+        ],
+        [
+            "c4.4xlarge",
+            16,
+            30.0,
+            null,
+            "High",
+            0.9316875,
+            "c",
+            "c4"
+        ],
+        [
+            "c4.8xlarge",
+            36,
+            60.0,
+            null,
+            "10 Gigabit",
+            1.8631875,
+            "c",
+            "c4"
+        ],
+        [
+            "c5.large",
+            2,
+            4.0,
+            null,
+            "Up to 10 Gigabit",
+            0.09935,
+            "c",
+            "c5"
+        ],
+        [
+            "c5.xlarge",
+            4,
+            8.0,
+            null,
+            "Up to 10 Gigabit",
+            0.1987,
+            "c",
+            "c5"
+        ],
+        [
+            "c5.2xlarge",
+            8,
+            16.0,
+            null,
+            "Up to 10 Gigabit",
+            0.3974,
+            "c",
+            "c5"
+        ],
+        [
+            "c5.4xlarge",
+            16,
+            32.0,
+            null,
+            "Up to 10 Gigabit",
+            0.7948,
+            "c",
+            "c5"
+        ],
+        [
+            "c5.9xlarge",
+            36,
+            72.0,
+            null,
+            "10 Gigabit",
+            1.7883,
+            "c",
+            "c5"
+        ],
+        [
+            "c5.12xlarge",
+            48,
+            96.0,
+            null,
+            "12 Gigabit",
+            2.3208,
+            "c",
+            "c5"
+        ],
+        [
+            "c5.18xlarge",
+            72,
+            144.0,
+            null,
+            "25 Gigabit",
+            3.5766,
+            "c",
+            "c5"
+        ],
+        [
+            "c5.metal",
+            96,
+            192.0,
+            null,
+            "25 Gigabit",
+            4.6416,
+            "c",
+            "c5"
+        ],
+        [
+            "c5.24xlarge",
+            96,
+            192.0,
+            null,
+            "25 Gigabit",
+            4.6416,
+            "c",
+            "c5"
+        ],
+        [
+            "c5d.large",
+            2,
+            4.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 50,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            0.1112631579,
+            "c",
+            "c5d"
+        ],
+        [
+            "c5d.xlarge",
+            4,
+            8.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 100,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            0.2225263158,
+            "c",
+            "c5d"
+        ],
+        [
+            "c5d.2xlarge",
+            8,
+            16.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 200,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            0.4450526316,
+            "c",
+            "c5d"
+        ],
+        [
+            "c5d.4xlarge",
+            16,
+            32.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 400,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            0.8901052632,
+            "c",
+            "c5d"
+        ],
+        [
+            "c5d.9xlarge",
+            36,
+            72.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            2.0027368421,
+            "c",
+            "c5d"
+        ],
+        [
+            "c5d.18xlarge",
+            72,
+            144.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "25 Gigabit",
+            4.0054736842,
+            "c",
+            "c5d"
+        ],
+        [
+            "c5n.large",
+            2,
+            5.25,
+            null,
+            "Up to 25 Gigabit",
+            0.1216666667,
+            "c",
+            "c5n"
+        ],
+        [
+            "c5n.xlarge",
+            4,
+            10.5,
+            null,
+            "Up to 25 Gigabit",
+            0.2433333333,
+            "c",
+            "c5n"
+        ],
+        [
+            "c5n.2xlarge",
+            8,
+            21.0,
+            null,
+            "Up to 25 Gigabit",
+            0.4866666667,
+            "c",
+            "c5n"
+        ],
+        [
+            "c5n.4xlarge",
+            16,
+            42.0,
+            null,
+            "Up to 25 Gigabit",
+            0.9733333333,
+            "c",
+            "c5n"
+        ],
+        [
+            "c5n.9xlarge",
+            36,
+            96.0,
+            null,
+            "50 Gigabit",
+            2.19,
+            "c",
+            "c5n"
+        ],
+        [
+            "c5n.18xlarge",
+            72,
+            192.0,
+            null,
+            "100 Gigabit",
+            4.38,
+            "c",
+            "c5n"
+        ],
+        [
+            "cc2.8xlarge",
+            32,
+            60.5,
+            {
+                "devices": 4,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 840,
+                "ssd": false,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "10 Gigabit",
+            2.1698,
+            "c",
+            "cc2"
+        ],
+        [
+            "cr1.8xlarge",
+            32,
+            244.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 120,
+                "ssd": true,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "10 Gigabit",
+            3.71375,
+            "c",
+            "cr1"
+        ],
+        [
+            "d2.xlarge",
+            4,
+            30.5,
+            {
+                "devices": 3,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 2000,
+                "ssd": false,
+                "storage_needs_initialization": false,
+                "trim_support": false
+            },
+            "Moderate",
+            0.7925,
+            "d",
+            "d2"
+        ],
+        [
+            "d2.2xlarge",
+            8,
+            61.0,
+            {
+                "devices": 6,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 2000,
+                "ssd": false,
+                "storage_needs_initialization": false,
+                "trim_support": false
+            },
+            "High",
+            1.585,
+            "d",
+            "d2"
+        ],
+        [
+            "d2.4xlarge",
+            16,
+            122.0,
+            {
+                "devices": 12,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 2000,
+                "ssd": false,
+                "storage_needs_initialization": false,
+                "trim_support": false
+            },
+            "High",
+            3.1698888889,
+            "d",
+            "d2"
+        ],
+        [
+            "d2.8xlarge",
+            36,
+            244.0,
+            {
+                "devices": 24,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 2000,
+                "ssd": false,
+                "storage_needs_initialization": false,
+                "trim_support": false
+            },
+            "10 Gigabit",
+            6.3397777778,
+            "d",
+            "d2"
+        ],
+        [
+            "f1.2xlarge",
+            8,
+            122.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 470,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            1.8016,
+            "f",
+            "f1"
+        ],
+        [
+            "f1.4xlarge",
+            16,
+            244.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 940,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            3.6032,
+            "f",
+            "f1"
+        ],
+        [
+            "f1.16xlarge",
+            64,
+            976.0,
+            {
+                "devices": 4,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 940,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "20 Gigabit",
+            14.4128,
+            "f",
+            "f1"
+        ],
+        [
+            "g2.2xlarge",
+            8,
+            15.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 60,
+                "ssd": true,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "High",
+            0.7966666667,
+            "g",
+            "g2"
+        ],
+        [
+            "g2.8xlarge",
+            32,
+            60.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 120,
+                "ssd": true,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "10 Gigabit",
+            3.1866666667,
+            "g",
+            "g2"
+        ],
+        [
+            "g3.4xlarge",
+            16,
+            122.0,
+            null,
+            "Up to 10 Gigabit",
+            1.3983076923,
+            "g",
+            "g3"
+        ],
+        [
+            "g3.8xlarge",
+            32,
+            244.0,
+            null,
+            "10 Gigabit",
+            2.7966153846,
+            "g",
+            "g3"
+        ],
+        [
+            "g3.16xlarge",
+            64,
+            488.0,
+            null,
+            "20 Gigabit",
+            5.5932307692,
+            "g",
+            "g3"
+        ],
+        [
+            "g3s.xlarge",
+            4,
+            30.5,
+            null,
+            "10 Gigabit",
+            0.9061,
+            "g",
+            "g3s"
+        ],
+        [
+            "h1.2xlarge",
+            8,
+            32.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 2000,
+                "ssd": false,
+                "storage_needs_initialization": false,
+                "trim_support": false
+            },
+            "Up to 10 Gigabit",
+            0.48075,
+            "h",
+            "h1"
+        ],
+        [
+            "h1.4xlarge",
+            16,
+            64.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 2000,
+                "ssd": false,
+                "storage_needs_initialization": false,
+                "trim_support": false
+            },
+            "Up to 10 Gigabit",
+            0.9615,
+            "h",
+            "h1"
+        ],
+        [
+            "h1.8xlarge",
+            32,
+            128.0,
+            {
+                "devices": 4,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 2000,
+                "ssd": false,
+                "storage_needs_initialization": false,
+                "trim_support": false
+            },
+            "10 Gigabit",
+            1.923,
+            "h",
+            "h1"
+        ],
+        [
+            "h1.16xlarge",
+            64,
+            256.0,
+            {
+                "devices": 8,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 2000,
+                "ssd": false,
+                "storage_needs_initialization": false,
+                "trim_support": false
+            },
+            "25 Gigabit",
+            3.846,
+            "h",
+            "h1"
+        ],
+        [
+            "hs1.8xlarge",
+            17,
+            117.0,
+            {
+                "devices": 24,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 2000,
+                "ssd": false,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "10 Gigabit",
+            5.1657142857,
+            "h",
+            "hs1"
+        ],
+        [
+            "i2.xlarge",
+            4,
+            30.5,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 800,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Moderate",
+            0.9563333333,
+            "i",
+            "i2"
+        ],
+        [
+            "i2.2xlarge",
+            8,
+            61.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 800,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "High",
+            1.912,
+            "i",
+            "i2"
+        ],
+        [
+            "i2.4xlarge",
+            16,
+            122.0,
+            {
+                "devices": 4,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 800,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "High",
+            3.8238333333,
+            "i",
+            "i2"
+        ],
+        [
+            "i2.8xlarge",
+            32,
+            244.0,
+            {
+                "devices": 8,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 800,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            7.6475833333,
+            "i",
+            "i2"
+        ],
+        [
+            "i3.large",
+            2,
+            15.25,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 475,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            0.18315,
+            "i",
+            "i3"
+        ],
+        [
+            "i3.xlarge",
+            4,
+            30.5,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 950,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            0.3663,
+            "i",
+            "i3"
+        ],
+        [
+            "i3.2xlarge",
+            8,
+            61.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 1900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            0.7326,
+            "i",
+            "i3"
+        ],
+        [
+            "i3.4xlarge",
+            16,
+            122.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 1900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            1.4652,
+            "i",
+            "i3"
+        ],
+        [
+            "i3.8xlarge",
+            32,
+            244.0,
+            {
+                "devices": 4,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 1900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            2.9304,
+            "i",
+            "i3"
+        ],
+        [
+            "i3.16xlarge",
+            64,
+            488.0,
+            {
+                "devices": 8,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 1900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "20 Gigabit",
+            5.8608,
+            "i",
+            "i3"
+        ],
+        [
+            "i3.metal",
+            72,
+            512.0,
+            {
+                "devices": 8,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 1900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "25 Gigabit",
+            5.476,
+            "i",
+            "i3"
+        ],
+        [
+            "i3en.large",
+            2,
+            16.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 1250,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 25 Gigabit",
+            0.2475,
+            "i",
+            "i3en"
+        ],
+        [
+            "i3en.xlarge",
+            4,
+            32.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 2500,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 25 Gigabit",
+            0.495,
+            "i",
+            "i3en"
+        ],
+        [
+            "i3en.2xlarge",
+            8,
+            64.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 2500,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 25 Gigabit",
+            0.99,
+            "i",
+            "i3en"
+        ],
+        [
+            "i3en.3xlarge",
+            12,
+            96.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 7500,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 25 Gigabit",
+            1.485,
+            "i",
+            "i3en"
+        ],
+        [
+            "i3en.6xlarge",
+            24,
+            192.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 7500,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "25 Gigabit",
+            2.97,
+            "i",
+            "i3en"
+        ],
+        [
+            "i3en.12xlarge",
+            48,
+            384.0,
+            {
+                "devices": 4,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 7500,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "50 Gigabit",
+            5.94,
+            "i",
+            "i3en"
+        ],
+        [
+            "i3en.24xlarge",
+            96,
+            768.0,
+            {
+                "devices": 8,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 7500,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "100 Gigabit",
+            11.88,
+            "i",
+            "i3en"
+        ],
+        [
+            "m1.small",
+            1,
+            1.7,
+            {
+                "devices": 1,
+                "includes_swap_partition": true,
+                "nvme_ssd": false,
+                "size": 160,
+                "ssd": false,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "Low",
+            0.0522222222,
+            "m",
+            "m1"
+        ],
+        [
+            "m1.medium",
+            1,
+            3.75,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 410,
+                "ssd": false,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "Moderate",
+            0.1047777778,
+            "m",
+            "m1"
+        ],
+        [
+            "m1.large",
+            2,
+            7.5,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 420,
+                "ssd": false,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "Moderate",
+            0.2092222222,
+            "m",
+            "m1"
+        ],
+        [
+            "m1.xlarge",
+            4,
+            15.0,
+            {
+                "devices": 4,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 420,
+                "ssd": false,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "High",
+            0.4186666667,
+            "m",
+            "m1"
+        ],
+        [
+            "m2.xlarge",
+            2,
+            17.1,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 420,
+                "ssd": false,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "Moderate",
+            0.2816666667,
+            "m",
+            "m2"
+        ],
+        [
+            "m2.2xlarge",
+            4,
+            34.2,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 850,
+                "ssd": false,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "Moderate",
+            0.5633333333,
+            "m",
+            "m2"
+        ],
+        [
+            "m2.4xlarge",
+            8,
+            68.4,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 840,
+                "ssd": false,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "High",
+            1.1264444444,
+            "m",
+            "m2"
+        ],
+        [
+            "m3.medium",
+            1,
+            3.75,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 4,
+                "ssd": true,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "Moderate",
+            0.0836363636,
+            "m",
+            "m3"
+        ],
+        [
+            "m3.large",
+            2,
+            7.5,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 32,
+                "ssd": true,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "Moderate",
+            0.1672727273,
+            "m",
+            "m3"
+        ],
+        [
+            "m3.xlarge",
+            4,
+            15.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 40,
+                "ssd": true,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "High",
+            0.3345454545,
+            "m",
+            "m3"
+        ],
+        [
+            "m3.2xlarge",
+            8,
+            30.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 80,
+                "ssd": true,
+                "storage_needs_initialization": true,
+                "trim_support": false
+            },
+            "High",
+            0.6691818182,
+            "m",
+            "m3"
+        ],
+        [
+            "m4.large",
+            2,
+            8.0,
+            null,
+            "Moderate",
+            0.1185,
+            "m",
+            "m4"
+        ],
+        [
+            "m4.xlarge",
+            4,
+            16.0,
+            null,
+            "High",
+            0.237,
+            "m",
+            "m4"
+        ],
+        [
+            "m4.2xlarge",
+            8,
+            32.0,
+            null,
+            "High",
+            0.474,
+            "m",
+            "m4"
+        ],
+        [
+            "m4.4xlarge",
+            16,
+            64.0,
+            null,
+            "High",
+            0.948,
+            "m",
+            "m4"
+        ],
+        [
+            "m4.10xlarge",
+            40,
+            160.0,
+            null,
+            "10 Gigabit",
+            2.37,
+            "m",
+            "m4"
+        ],
+        [
+            "m4.16xlarge",
+            64,
+            256.0,
+            null,
+            "20 Gigabit",
+            3.792,
+            "m",
+            "m4"
+        ],
+        [
+            "m5.large",
+            2,
+            8.0,
+            null,
+            "Up to 10 Gigabit",
+            0.1144,
+            "m",
+            "m5"
+        ],
+        [
+            "m5.xlarge",
+            4,
+            16.0,
+            null,
+            "Up to 10 Gigabit",
+            0.2288,
+            "m",
+            "m5"
+        ],
+        [
+            "m5.2xlarge",
+            8,
+            32.0,
+            null,
+            "Up to 10 Gigabit",
+            0.4576,
+            "m",
+            "m5"
+        ],
+        [
+            "m5.4xlarge",
+            16,
+            64.0,
+            null,
+            "Up to 10 Gigabit",
+            0.9152,
+            "m",
+            "m5"
+        ],
+        [
+            "m5.8xlarge",
+            32,
+            128.0,
+            null,
+            "10 Gigabit",
+            1.8304,
+            "m",
+            "m5"
+        ],
+        [
+            "m5.12xlarge",
+            48,
+            192.0,
+            null,
+            "10 Gigabit",
+            2.7456,
+            "m",
+            "m5"
+        ],
+        [
+            "m5.16xlarge",
+            64,
+            256.0,
+            null,
+            "20 Gigabit",
+            3.6608,
+            "m",
+            "m5"
+        ],
+        [
+            "m5.24xlarge",
+            96,
+            384.0,
+            null,
+            "25 Gigabit",
+            5.4912,
+            "m",
+            "m5"
+        ],
+        [
+            "m5.metal",
+            96,
+            384.0,
+            null,
+            "25 Gigabit",
+            5.3936842105,
+            "m",
+            "m5"
+        ],
+        [
+            "m5a.large",
+            2,
+            8.0,
+            null,
+            "Up to 10 Gigabit",
+            0.1001538462,
+            "m",
+            "m5a"
+        ],
+        [
+            "m5a.xlarge",
+            4,
+            16.0,
+            null,
+            "Up to 10 Gigabit",
+            0.2003076923,
+            "m",
+            "m5a"
+        ],
+        [
+            "m5a.2xlarge",
+            8,
+            32.0,
+            null,
+            "Up to 10 Gigabit",
+            0.4006153846,
+            "m",
+            "m5a"
+        ],
+        [
+            "m5a.4xlarge",
+            16,
+            64.0,
+            null,
+            "Up to 10 Gigabit",
+            0.8012307692,
+            "m",
+            "m5a"
+        ],
+        [
+            "m5a.8xlarge",
+            32,
+            128.0,
+            null,
+            "Up to 10 Gigabit",
+            1.6024615385,
+            "m",
+            "m5a"
+        ],
+        [
+            "m5a.12xlarge",
+            48,
+            192.0,
+            null,
+            "10 Gigabit",
+            2.4036923077,
+            "m",
+            "m5a"
+        ],
+        [
+            "m5a.16xlarge",
+            64,
+            256.0,
+            null,
+            "12 Gigabit",
+            3.2049230769,
+            "m",
+            "m5a"
+        ],
+        [
+            "m5a.24xlarge",
+            96,
+            384.0,
+            null,
+            "20 Gigabit",
+            4.8073846154,
+            "m",
+            "m5a"
+        ],
+        [
+            "m5ad.large",
+            2,
+            8.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 75,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            0.1162857143,
+            "m",
+            "m5ad"
+        ],
+        [
+            "m5ad.xlarge",
+            4,
+            16.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 150,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            0.2325714286,
+            "m",
+            "m5ad"
+        ],
+        [
+            "m5ad.2xlarge",
+            8,
+            32.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 300,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            0.4651428571,
+            "m",
+            "m5ad"
+        ],
+        [
+            "m5ad.4xlarge",
+            16,
+            64.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 300,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            0.9302857143,
+            "m",
+            "m5ad"
+        ],
+        [
+            "m5ad.12xlarge",
+            48,
+            192.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            2.7908571429,
+            "m",
+            "m5ad"
+        ],
+        [
+            "m5ad.24xlarge",
+            96,
+            384.0,
+            {
+                "devices": 4,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "20 Gigabit",
+            5.5817142857,
+            "m",
+            "m5ad"
+        ],
+        [
+            "m5d.large",
+            2,
+            8.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 75,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            0.1326315789,
+            "m",
+            "m5d"
+        ],
+        [
+            "m5d.xlarge",
+            4,
+            16.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 150,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            0.2652631579,
+            "m",
+            "m5d"
+        ],
+        [
+            "m5d.2xlarge",
+            8,
+            32.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 300,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            0.5305263158,
+            "m",
+            "m5d"
+        ],
+        [
+            "m5d.4xlarge",
+            16,
+            64.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 300,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            1.0610526316,
+            "m",
+            "m5d"
+        ],
+        [
+            "m5d.8xlarge",
+            32,
+            128.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 600,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            2.1221052632,
+            "m",
+            "m5d"
+        ],
+        [
+            "m5d.12xlarge",
+            48,
+            192.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            3.1831578947,
+            "m",
+            "m5d"
+        ],
+        [
+            "m5d.16xlarge",
+            64,
+            256.0,
+            {
+                "devices": 4,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 600,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "20 Gigabit",
+            4.2442105263,
+            "m",
+            "m5d"
+        ],
+        [
+            "m5d.24xlarge",
+            96,
+            384.0,
+            {
+                "devices": 4,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "25 Gigabit",
+            6.3663157895,
+            "m",
+            "m5d"
+        ],
+        [
+            "m5d.metal",
+            96,
+            384.0,
+            {
+                "devices": 4,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "25 Gigabit",
+            6.3663157895,
+            "m",
+            "m5d"
+        ],
+        [
+            "p2.xlarge",
+            4,
+            61.0,
+            null,
+            "High",
+            1.2784545455,
+            "p",
+            "p2"
+        ],
+        [
+            "p2.8xlarge",
+            32,
+            488.0,
+            null,
+            "10 Gigabit",
+            10.2276363636,
+            "p",
+            "p2"
+        ],
+        [
+            "p2.16xlarge",
+            64,
+            768.0,
+            null,
+            "20 Gigabit",
+            20.4552727273,
+            "p",
+            "p2"
+        ],
+        [
+            "p3.2xlarge",
+            8,
+            61.0,
+            null,
+            "Up to 10 Gigabit",
+            3.6525833333,
+            "p",
+            "p3"
+        ],
+        [
+            "p3.8xlarge",
+            32,
+            244.0,
+            null,
+            "10 Gigabit",
+            14.6103333333,
+            "p",
+            "p3"
+        ],
+        [
+            "p3.16xlarge",
+            64,
+            488.0,
+            null,
+            "25 Gigabit",
+            29.2206666667,
+            "p",
+            "p3"
+        ],
+        [
+            "p3dn.24xlarge",
+            96,
+            768.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "100 Gigabit",
+            34.7295,
+            "p",
+            "p3dn"
+        ],
+        [
+            "r3.large",
+            2,
+            15.25,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 32,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Moderate",
+            0.2006153846,
+            "r",
+            "r3"
+        ],
+        [
+            "r3.xlarge",
+            4,
+            30.5,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 80,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Moderate",
+            0.4010769231,
+            "r",
+            "r3"
+        ],
+        [
+            "r3.2xlarge",
+            8,
+            61.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 160,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "High",
+            0.8017692308,
+            "r",
+            "r3"
+        ],
+        [
+            "r3.4xlarge",
+            16,
+            122.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 320,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "High",
+            1.6036153846,
+            "r",
+            "r3"
+        ],
+        [
+            "r3.8xlarge",
+            32,
+            244.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 320,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            3.2072307692,
+            "r",
+            "r3"
+        ],
+        [
+            "r4.large",
+            2,
+            15.25,
+            null,
+            "Up to 10 Gigabit",
+            0.1582147059,
+            "r",
+            "r4"
+        ],
+        [
+            "r4.xlarge",
+            4,
+            30.5,
+            null,
+            "Up to 10 Gigabit",
+            0.3164294118,
+            "r",
+            "r4"
+        ],
+        [
+            "r4.2xlarge",
+            8,
+            61.0,
+            null,
+            "Up to 10 Gigabit",
+            0.6328588235,
+            "r",
+            "r4"
+        ],
+        [
+            "r4.4xlarge",
+            16,
+            122.0,
+            null,
+            "Up to 10 Gigabit",
+            1.2657176471,
+            "r",
+            "r4"
+        ],
+        [
+            "r4.8xlarge",
+            32,
+            244.0,
+            null,
+            "10 Gigabit",
+            2.5314352941,
+            "r",
+            "r4"
+        ],
+        [
+            "r4.16xlarge",
+            64,
+            488.0,
+            null,
+            "20 Gigabit",
+            5.0628705882,
+            "r",
+            "r4"
+        ],
+        [
+            "r5.large",
+            2,
+            16.0,
+            null,
+            "10 Gigabit",
+            0.1440526316,
+            "r",
+            "r5"
+        ],
+        [
+            "r5.xlarge",
+            4,
+            32.0,
+            null,
+            "10 Gigabit",
+            0.2881052632,
+            "r",
+            "r5"
+        ],
+        [
+            "r5.2xlarge",
+            8,
+            64.0,
+            null,
+            "10 Gigabit",
+            0.5762105263,
+            "r",
+            "r5"
+        ],
+        [
+            "r5.4xlarge",
+            16,
+            128.0,
+            null,
+            "10 Gigabit",
+            1.1524210526,
+            "r",
+            "r5"
+        ],
+        [
+            "r5.8xlarge",
+            32,
+            256.0,
+            null,
+            "10 Gigabit",
+            2.3048421053,
+            "r",
+            "r5"
+        ],
+        [
+            "r5.12xlarge",
+            48,
+            384.0,
+            null,
+            "10 Gigabit",
+            3.4572631579,
+            "r",
+            "r5"
+        ],
+        [
+            "r5.16xlarge",
+            64,
+            512.0,
+            null,
+            "20 Gigabit",
+            4.6096842105,
+            "r",
+            "r5"
+        ],
+        [
+            "r5.metal",
+            96,
+            768.0,
+            null,
+            "25 Gigabit",
+            6.9145263158,
+            "r",
+            "r5"
+        ],
+        [
+            "r5.24xlarge",
+            96,
+            768.0,
+            null,
+            "25 Gigabit",
+            6.9145263158,
+            "r",
+            "r5"
+        ],
+        [
+            "r5a.large",
+            2,
+            16.0,
+            null,
+            "10 Gigabit",
+            0.1282307692,
+            "r",
+            "r5a"
+        ],
+        [
+            "r5a.xlarge",
+            4,
+            32.0,
+            null,
+            "10 Gigabit",
+            0.2564615385,
+            "r",
+            "r5a"
+        ],
+        [
+            "r5a.2xlarge",
+            8,
+            64.0,
+            null,
+            "10 Gigabit",
+            0.5129230769,
+            "r",
+            "r5a"
+        ],
+        [
+            "r5a.4xlarge",
+            16,
+            128.0,
+            null,
+            "10 Gigabit",
+            1.0258461538,
+            "r",
+            "r5a"
+        ],
+        [
+            "r5a.8xlarge",
+            32,
+            256.0,
+            null,
+            "Up to 10 Gigabit",
+            2.0516923077,
+            "r",
+            "r5a"
+        ],
+        [
+            "r5a.12xlarge",
+            48,
+            384.0,
+            null,
+            "10 Gigabit",
+            3.0775384615,
+            "r",
+            "r5a"
+        ],
+        [
+            "r5a.16xlarge",
+            64,
+            512.0,
+            null,
+            "12 Gigabit",
+            4.1033846154,
+            "r",
+            "r5a"
+        ],
+        [
+            "r5a.24xlarge",
+            96,
+            768.0,
+            null,
+            "20 Gigabit",
+            6.1550769231,
+            "r",
+            "r5a"
+        ],
+        [
+            "r5ad.large",
+            2,
+            16.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 75,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            0.1447142857,
+            "r",
+            "r5ad"
+        ],
+        [
+            "r5ad.xlarge",
+            4,
+            32.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 150,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            0.2894285714,
+            "r",
+            "r5ad"
+        ],
+        [
+            "r5ad.2xlarge",
+            8,
+            64.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 300,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            0.5788571429,
+            "r",
+            "r5ad"
+        ],
+        [
+            "r5ad.4xlarge",
+            16,
+            128.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 300,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            1.1577142857,
+            "r",
+            "r5ad"
+        ],
+        [
+            "r5ad.12xlarge",
+            48,
+            384.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            3.4731428571,
+            "r",
+            "r5ad"
+        ],
+        [
+            "r5ad.24xlarge",
+            96,
+            768.0,
+            {
+                "devices": 4,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "20 Gigabit",
+            6.9462857143,
+            "r",
+            "r5ad"
+        ],
+        [
+            "r5d.large",
+            2,
+            16.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 75,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            0.164,
+            "r",
+            "r5d"
+        ],
+        [
+            "r5d.xlarge",
+            4,
+            32.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 150,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            0.328,
+            "r",
+            "r5d"
+        ],
+        [
+            "r5d.2xlarge",
+            8,
+            64.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 300,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            0.656,
+            "r",
+            "r5d"
+        ],
+        [
+            "r5d.4xlarge",
+            16,
+            128.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 300,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            1.312,
+            "r",
+            "r5d"
+        ],
+        [
+            "r5d.8xlarge",
+            32,
+            256.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 600,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            2.624,
+            "r",
+            "r5d"
+        ],
+        [
+            "r5d.12xlarge",
+            48,
+            384.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            3.936,
+            "r",
+            "r5d"
+        ],
+        [
+            "r5d.16xlarge",
+            64,
+            512.0,
+            {
+                "devices": 4,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 600,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "20 Gigabit",
+            5.248,
+            "r",
+            "r5d"
+        ],
+        [
+            "r5d.24xlarge",
+            96,
+            768.0,
+            {
+                "devices": 4,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "25 Gigabit",
+            7.872,
+            "r",
+            "r5d"
+        ],
+        [
+            "r5d.metal",
+            96,
+            768.0,
+            {
+                "devices": 4,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "25 Gigabit",
+            7.872,
+            "r",
+            "r5d"
+        ],
+        [
+            "t1.micro",
+            1,
+            0.613,
+            null,
+            "Very Low",
+            0.0224444444,
+            "t",
+            "t1"
+        ],
+        [
+            "t2.nano",
+            1,
+            0.5,
+            null,
+            "Low",
+            0.0068352941,
+            "t",
+            "t2"
+        ],
+        [
+            "t2.micro",
+            1,
+            1.0,
+            null,
+            "Low to Moderate",
+            0.0136705882,
+            "t",
+            "t2"
+        ],
+        [
+            "t2.small",
+            1,
+            2.0,
+            null,
+            "Low to Moderate",
+            0.0272705882,
+            "t",
+            "t2"
+        ],
+        [
+            "t2.medium",
+            2,
+            4.0,
+            null,
+            "Low to Moderate",
+            0.0546117647,
+            "t",
+            "t2"
+        ],
+        [
+            "t2.large",
+            2,
+            8.0,
+            null,
+            "Low to Moderate",
+            0.1093647059,
+            "t",
+            "t2"
+        ],
+        [
+            "t2.xlarge",
+            4,
+            16.0,
+            null,
+            "Moderate",
+            0.2187294118,
+            "t",
+            "t2"
+        ],
+        [
+            "t2.2xlarge",
+            8,
+            32.0,
+            null,
+            "Moderate",
+            0.4374588235,
+            "t",
+            "t2"
+        ],
+        [
+            "t3.nano",
+            2,
+            0.5,
+            null,
+            "Low",
+            0.006165,
+            "t",
+            "t3"
+        ],
+        [
+            "t3.micro",
+            2,
+            1.0,
+            null,
+            "Low to Moderate",
+            0.01233,
+            "t",
+            "t3"
+        ],
+        [
+            "t3.small",
+            2,
+            2.0,
+            null,
+            "Low to Moderate",
+            0.02466,
+            "t",
+            "t3"
+        ],
+        [
+            "t3.medium",
+            2,
+            4.0,
+            null,
+            "Low to Moderate",
+            0.04932,
+            "t",
+            "t3"
+        ],
+        [
+            "t3.large",
+            2,
+            8.0,
+            null,
+            "Low to Moderate",
+            0.09864,
+            "t",
+            "t3"
+        ],
+        [
+            "t3.xlarge",
+            4,
+            16.0,
+            null,
+            "Moderate",
+            0.19728,
+            "t",
+            "t3"
+        ],
+        [
+            "t3.2xlarge",
+            8,
+            32.0,
+            null,
+            "Moderate",
+            0.39456,
+            "t",
+            "t3"
+        ],
+        [
+            "t3a.nano",
+            2,
+            0.5,
+            null,
+            "Low",
+            0.0053866667,
+            "t",
+            "t3a"
+        ],
+        [
+            "t3a.micro",
+            2,
+            1.0,
+            null,
+            "Low to Moderate",
+            0.0107733333,
+            "t",
+            "t3a"
+        ],
+        [
+            "t3a.small",
+            2,
+            2.0,
+            null,
+            "Low to Moderate",
+            0.0215533333,
+            "t",
+            "t3a"
+        ],
+        [
+            "t3a.medium",
+            2,
+            4.0,
+            null,
+            "Low to Moderate",
+            0.0431,
+            "t",
+            "t3a"
+        ],
+        [
+            "t3a.large",
+            2,
+            8.0,
+            null,
+            "Low to Moderate",
+            0.0861933333,
+            "t",
+            "t3a"
+        ],
+        [
+            "t3a.xlarge",
+            4,
+            16.0,
+            null,
+            "Moderate",
+            0.1723933333,
+            "t",
+            "t3a"
+        ],
+        [
+            "t3a.2xlarge",
+            8,
+            32.0,
+            null,
+            "Moderate",
+            0.3447933333,
+            "t",
+            "t3a"
+        ],
+        [
+            "u-12tb1.metal",
+            448,
+            12288.0,
+            null,
+            "25 Gigabit",
+            null,
+            "u",
+            "u-12tb1"
+        ],
+        [
+            "u-6tb1.metal",
+            448,
+            6144.0,
+            null,
+            "25 Gigabit",
+            null,
+            "u",
+            "u-6tb1"
+        ],
+        [
+            "u-9tb1.metal",
+            448,
+            9216.0,
+            null,
+            "25 Gigabit",
+            null,
+            "u",
+            "u-9tb1"
+        ],
+        [
+            "x1.16xlarge",
+            64,
+            976.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 1920,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": false
+            },
+            "High",
+            8.6295882353,
+            "x",
+            "x1"
+        ],
+        [
+            "x1.32xlarge",
+            128,
+            1952.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 1920,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": false
+            },
+            "High",
+            17.2589411765,
+            "x",
+            "x1"
+        ],
+        [
+            "x1e.xlarge",
+            4,
+            122.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 120,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": false
+            },
+            "Up to 10 Gigabit",
+            1.0459090909,
+            "x",
+            "x1e"
+        ],
+        [
+            "x1e.2xlarge",
+            8,
+            244.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 240,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": false
+            },
+            "Up to 10 Gigabit",
+            2.0918181818,
+            "x",
+            "x1e"
+        ],
+        [
+            "x1e.4xlarge",
+            16,
+            488.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 480,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": false
+            },
+            "Up to 10 Gigabit",
+            4.1836363636,
+            "x",
+            "x1e"
+        ],
+        [
+            "x1e.8xlarge",
+            32,
+            976.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 960,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": false
+            },
+            "Up to 10 Gigabit",
+            8.3672727273,
+            "x",
+            "x1e"
+        ],
+        [
+            "x1e.16xlarge",
+            64,
+            1952.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 1920,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": false
+            },
+            "10 Gigabit",
+            16.7345454545,
+            "x",
+            "x1e"
+        ],
+        [
+            "x1e.32xlarge",
+            128,
+            3904.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": false,
+                "size": 1920,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": false
+            },
+            "25 Gigabit",
+            33.4690909091,
+            "x",
+            "x1e"
+        ],
+        [
+            "z1d.large",
+            2,
+            16.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 75,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            0.2127777778,
+            "z",
+            "z1d"
+        ],
+        [
+            "z1d.xlarge",
+            4,
+            32.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 150,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            0.4254444444,
+            "z",
+            "z1d"
+        ],
+        [
+            "z1d.2xlarge",
+            8,
+            64.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 300,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            0.851,
+            "z",
+            "z1d"
+        ],
+        [
+            "z1d.3xlarge",
+            12,
+            96.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 450,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "Up to 10 Gigabit",
+            1.2764444444,
+            "z",
+            "z1d"
+        ],
+        [
+            "z1d.6xlarge",
+            24,
+            192.0,
+            {
+                "devices": 1,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "10 Gigabit",
+            2.5528888889,
+            "z",
+            "z1d"
+        ],
+        [
+            "z1d.12xlarge",
+            48,
+            384.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "25 Gigabit",
+            5.1058888889,
+            "z",
+            "z1d"
+        ],
+        [
+            "z1d.metal",
+            48,
+            384.0,
+            {
+                "devices": 2,
+                "includes_swap_partition": false,
+                "nvme_ssd": true,
+                "size": 900,
+                "ssd": true,
+                "storage_needs_initialization": false,
+                "trim_support": true
+            },
+            "25 Gigabit",
+            5.1058888889,
+            "z",
+            "z1d"
+        ]
+    ],
+    "index": [
+        203,
+        205,
+        124,
+        39,
+        201,
+        180,
+        183,
+        36,
+        100,
+        102,
+        129,
+        80,
+        52,
+        40,
+        140,
+        194,
+        107,
+        8,
+        112,
+        90,
+        49,
+        3,
+        171,
+        17,
+        1,
+        10,
+        60,
+        0,
+        93,
+        69,
+        163,
+        32,
+        9,
+        74,
+        63,
+        172,
+        108,
+        44,
+        181,
+        192,
+        89,
+        109,
+        110,
+        13,
+        202,
+        134,
+        196,
+        139,
+        169,
+        167,
+        147,
+        38,
+        200,
+        132,
+        46,
+        26,
+        143,
+        206,
+        11,
+        21,
+        162,
+        19,
+        157,
+        98,
+        165,
+        170,
+        191,
+        159,
+        149,
+        161,
+        135,
+        22,
+        14,
+        28,
+        6,
+        43,
+        123,
+        95,
+        175,
+        92,
+        179,
+        186,
+        176,
+        81,
+        68,
+        94,
+        56,
+        45,
+        115,
+        151,
+        121,
+        58,
+        119,
+        48,
+        106,
+        16,
+        142,
+        185,
+        66,
+        150,
+        5,
+        65,
+        190,
+        23,
+        2,
+        75,
+        83,
+        86,
+        33,
+        193,
+        59,
+        42,
+        84,
+        111,
+        160,
+        133,
+        54,
+        64,
+        57,
+        113,
+        148,
+        7,
+        88,
+        50,
+        138,
+        128,
+        105,
+        79,
+        24,
+        178,
+        67,
+        78,
+        51,
+        72,
+        103,
+        174,
+        177,
+        71,
+        122,
+        104,
+        130,
+        29,
+        97,
+        156,
+        164,
+        55,
+        154,
+        101,
+        120,
+        114,
+        34,
+        70,
+        35,
+        131,
+        85,
+        116,
+        20,
+        136,
+        127,
+        37,
+        153,
+        4,
+        76,
+        187,
+        189,
+        137,
+        166,
+        53,
+        155,
+        126,
+        145,
+        168,
+        184,
+        27,
+        61,
+        208,
+        211,
+        12,
+        87,
+        204,
+        30,
+        77,
+        25,
+        210,
+        197,
+        195,
+        91,
+        198,
+        117,
+        146,
+        188,
+        199,
+        173,
+        96,
+        212,
+        207,
+        182,
+        214,
+        209,
+        213,
+        31,
+        62,
+        47,
+        82,
+        41,
+        141,
+        18,
+        73,
+        158,
+        144,
+        99,
+        15,
+        125,
+        118,
+        152
+    ]
+}
