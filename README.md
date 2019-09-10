@@ -1,6 +1,8 @@
 # www.ec2instances.info-csv
 
-exported and stripped down csv files from ec2instancse.info Used in ec2op-osi
+exported and stripped down json files from ec2instancse.info
+
+Readable with [pandas `read_json`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_json.html)
 
 
 ## Usage
@@ -15,6 +17,8 @@ The file is 118kB
 
 
 ## Created with
+
+[git-remote-aws](https://git-remote-aws.autofitcloud.com)
 
 ```
 git remote add r1_aws_ec2catalog aws+ec2::/catalog
