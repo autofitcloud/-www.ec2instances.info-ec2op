@@ -20,12 +20,13 @@ To read in python as a pandas dataframe with [`read_json`](https://pandas.pydata
 pip3 install isitfit
 
 from isitfit.utils import ec2_catalog
-df = ec2_catalog()
+from isitfit.cost.catalog_ec2 import Ec2Catalog
+df = Ec2Catalog().handle_pre({})['df_cat']
 df.shape
 # (261, 2)
 ```
 
-Source code for `isitfit.utils.ec2_catalog` is available [here](https://github.com/autofitcloud/isitfit/blob/master/isitfit/utils.py#L38)
+Source code for `Ec2Catalog` is available at [isitfit](https://github.com/autofitcloud/isitfit/)
 
 
 ## Created with
