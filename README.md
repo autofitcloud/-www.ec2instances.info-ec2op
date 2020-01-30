@@ -19,9 +19,8 @@ To read in python as a pandas dataframe with [`read_json`](https://pandas.pydata
 ```
 pip3 install isitfit
 
-from isitfit.utils import ec2_catalog
 from isitfit.cost.catalog_ec2 import Ec2Catalog
-df = Ec2Catalog().handle_pre({})['df_cat']
+df = Ec2Catalog(allow_ec2_different_family=True).handle_pre({})['df_cat']
 df.shape
 # (261, 2)
 ```
